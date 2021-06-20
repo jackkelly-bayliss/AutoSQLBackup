@@ -1,0 +1,22 @@
+{
+  "name": "autosqlbackup",
+  "version": "1.0.0",
+  "description": "Node app that automatically creates backups of a specific SQL server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jack Kelly-Bayliss",
+  "license": "ISC",
+  "dependencies": {
+    "center-align": "^1.0.1",
+    "chalk": "^4.1.1",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "figlet": "^1.5.0",
+    "human-to-cron": "^0.3.1",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.29.1",
+    "mysqldump": "^3.2.0"
+  }
+}
